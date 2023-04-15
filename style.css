@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: url(image/GYM.jpg) ;       
+    background-image: url("https://i.ibb.co/Yhy9LD7/GYM.jpg") ;       
     width: 1350px;;
     height: 663px;;
     background-size: cover;
@@ -19,13 +19,6 @@ header{
     /* border-top: 0.8rem solid #fc2403;
     border-bottom: 0.8rem solid #fc2403;   */
 }
-/* .First-nav-bar{
-	background: #4CAF50;
-	height: 50px;
-}
-.First-logo{
-	
-} */
 .nav-bar{
     /* border: 1px solid red; */
     width: 88vw;
@@ -51,12 +44,6 @@ header{
 .logo h1 span{
     color: #ec4141;
 }
-/* .smoke-effect {
-	width: 100px;
-	height: 100px;
-	background: radial-gradient(circle at 0 0, transparent, black);
-	animation: smoke 5s ease-in-out infinite;
-  } */
 .list{
     display: flex;
     justify-content: center;
@@ -138,10 +125,6 @@ header{
     border: 1px solid #ec4141;
     transition: all 0.5s linear;
 }
-
-
-
-
 .btn-primary:hover{
     background-color: transparent;
 }
@@ -245,11 +228,11 @@ header{
 
 
 .mid-container{
-	height: 85%;
+	height: 500px;
 	width: 100%;
 	text-transform: uppercase;
 	color: #fff;
-	background: url(image/banner-bg.jpg);
+	background: url("https://i.ibb.co/30D64vq/banner-bg.jpg");
 	background-size: cover;
 	/* background-position: center; */
 	background-repeat: no-repeat;
@@ -257,7 +240,7 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 1Srem;
+	gap: 2rem;
 	letter-spacing: 1px;
 	
 }
@@ -276,12 +259,7 @@ header{
 	font-size: 70px;
 
 }
-/* .imgabout img{
-	height: 10%;
-	width: 30%;
-	display: flex;
-	grid-template-columns: 1fr ;	
-} */
+
 
 .offer-title{
 	width: 100%;
@@ -300,7 +278,7 @@ header{
 	width: 100%;
 	text-transform: uppercase;
 	color: #fff;
-	background: url(image/banner-bg.jpg);
+	background: url("https://i.ibb.co/30D64vq/banner-bg.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -457,53 +435,7 @@ footer{
 	font-size: 18px;
 	background: var(--primary-color);
 }
-/* .form{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
-	background-color: #576574;
 
-}
-.form h2{
-	margin-left: 45%;
-	font-size: 40px;
-}
-.form-content{
-	font-family: 'Quicksand', sans-serif;
-	margin-left: 40%;
-	padding-top: 1rem;
-	size: 20%;
-	font-size: 20px;
-}
-.form-btn{
-	font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-    letter-spacing: 1px;
-    margin-top: 1rem;
-	margin-bottom: 2rem;
-    background-color: #ec4141;
-    font-weight: 700;
-    color: antiquewhite;
-    text-transform: uppercase;
-    border-radius: 2px;
-    border: 2px solid #ec4141;
-    transition: all 0.5s linear;
-	margin-left: 6rem;
-	color: #000;
-	
-}
-.form-btn:hover{
-	background-color: transparent;
-} */
-/* .div-left-content h4{
-	font-size: 15px;
-	margin-right: 10rem;
-	margin-bottom: 2rem;
-	width: 40%;
-} */
-
-/* .div-login{
-	background-color: #222f3e;
-} */
 
 .login-container {
 	width: 350px;
